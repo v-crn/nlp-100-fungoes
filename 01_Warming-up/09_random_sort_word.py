@@ -3,11 +3,14 @@ import random
 
 def random_sort_word(word: str) -> str:
     """
-    文字列に対して，各単語の先頭と末尾の文字は残し，それ以外の文字の順序をランダムに並び替える。ただし，長さが４以下の単語は並び替えない。
+    文字列に対して，各単語の先頭と末尾の文字は残し，それ以外の文字の順序をランダムに並び替える。
+    ただし，長さが４以下の単語は並び替えない。
     """
     result = word
     if len(word) > 4:
-        result = word[0] + ''.join(random.sample(word[1:-1], k=len(word) - 2)) + word[-1]
+        result = word[0] + \
+            ''.join(random.sample(word[1:-1], k=len(word) - 2))\
+            + word[-1]
     return result
 
 
