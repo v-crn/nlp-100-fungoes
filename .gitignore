@@ -2,6 +2,7 @@
 __pypackages__
 言語処理100本ノック 2015_files
 言語処理100本ノック 2015.html
+data/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
