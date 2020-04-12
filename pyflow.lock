@@ -1,3 +1,36 @@
-package = []
+[[package]]
+id = 1
+name = "requests"
+version = "2.23.0"
+source = "pypi+https://pypi.org/pypi/requests/2.23.0/json"
+dependencies = ["urllib3 1.25.8 pypi+https://pypi.org/pypi/urllib3/1.25.8/json", "certifi 2020.4.5.1 pypi+https://pypi.org/pypi/certifi/2020.4.5.1/json", "idna 2.9.0 pypi+https://pypi.org/pypi/idna/2.9.0/json", "chardet 3.0.4 pypi+https://pypi.org/pypi/chardet/3.0.4/json"]
+
+[[package]]
+id = 2
+name = "certifi"
+version = "2020.4.5.1"
+source = "pypi+https://pypi.org/pypi/certifi/2020.4.5.1/json"
+dependencies = []
+
+[[package]]
+id = 4
+name = "idna"
+version = "2.9.0"
+source = "pypi+https://pypi.org/pypi/idna/2.9.0/json"
+dependencies = []
+
+[[package]]
+id = 3
+name = "urllib3"
+version = "1.25.8"
+source = "pypi+https://pypi.org/pypi/urllib3/1.25.8/json"
+dependencies = []
+
+[[package]]
+id = 5
+name = "chardet"
+version = "3.0.4"
+source = "pypi+https://pypi.org/pypi/chardet/3.0.4/json"
+dependencies = []
 
 [metadata]
