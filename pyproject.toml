@@ -11,7 +11,8 @@ version = "0.1.0"
 
 [tool.pyflow.dependencies]
 requests = "^2.23.0"
+mecab-python3 = "^0.996.5"
+pyknp = "^0.4.1"
 
 
 [tool.pyflow.dev-dependencies]
-
