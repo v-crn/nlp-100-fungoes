@@ -19,5 +19,5 @@ def main():
     analyze_with_mecab(c.PAHT_DATA_RAW, c.PAHT_DATA)
 
 
-if __name__ == '_mecabain__':
+if __name__ == '__main__':
     main()

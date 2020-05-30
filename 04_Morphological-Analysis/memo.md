@@ -8,7 +8,7 @@
 
 [ku-nlp/pyknp: A Python Module for JUMAN++/KNP](https://github.com/ku-nlp/pyknp)
 
-cabocha の導入ができなかったので代わりにこちらの係り受け解析器を使用する。
+次節で示すように、cabocha の導入ができなかったので代わりにこちらの係り受け解析器 "KNP" を使用する。
 
 ### cabocha (cabocha-python の導入ができなかったので不採用)
 
@@ -39,3 +39,12 @@ note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
 - make を使ってインストール
 
 結局解決できなかった。
+
+## 形態素解析済みデータの用意
+
+```sh
+curl -O http://www.cl.ecei.tohoku.ac.jp/nlp100/data/neko.txt
+mecab < neko.txt > neko.txt.mecab
+```
+
+mecab < ./data/neko.txt > ./data/neko.txt.mecab
